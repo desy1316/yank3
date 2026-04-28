@@ -43,12 +43,19 @@
 
     /* Merapikan Link */
     .nav-link {
+<<<<<<< HEAD
         font-weight: 500;
+=======
+>>>>>>> 24d8ab8 (add story feature)
         color: #333 !important;
     }
 
     .navbar-brand {
+<<<<<<< HEAD
         color: #000 !important;
+=======
+        color: #ff4901 !important;
+>>>>>>> 24d8ab8 (add story feature)
         letter-spacing: -0.5px;
     }
 

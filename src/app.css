@@ -12,6 +12,11 @@
 
 
 @media(max-width:576px) {
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 24d8ab8 (add story feature)
   .navbar-toggler {
     display: none !important;
   }

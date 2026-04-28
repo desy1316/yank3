@@ -39,7 +39,11 @@
             <div class="col-lg-12">
                 <div class="grid-audio">
                     {#each audiodata as item}
+<<<<<<< HEAD
                         <div data-aos="fade-up">
+=======
+                        <div data-aos="fade-down">
+>>>>>>> 24d8ab8 (add story feature)
                             <p class="m-1">{item.judul}</p>
                             <audio
                                 src={item.audio}

@@ -17,7 +17,11 @@
     });
 </script>
 
+<<<<<<< HEAD
 <section class="halfayat mt-3 mb-5 pb-5" data-aos="fade-up">
+=======
+<section class="halfayat mt-3" data-aos="fade-up">
+>>>>>>> 24d8ab8 (add story feature)
     <div class="grid-ayatHalf p-2">
         {#each someayat as item}
             <div class="card mb-1">
