@@ -25,14 +25,8 @@
         bottom: 0;
         left: 0;
         right: 0;
-<<<<<<< HEAD
         z-index: 999999;
-=======
-        z-index: 19;
-        /* z-index: 999999; */
->>>>>>> 24d8ab8 (add story feature)
         display: none;
-        /* Padding untuk memberi ruang agar efek glass tidak menempel ke pinggir */
         padding: 10px 15px;
     }
 
@@ -57,10 +51,7 @@
     footer a {
         font-size: 1.5rem !important; /* Ukuran icon agak dibesarkan */
         color: orangered;
-<<<<<<< HEAD
         padding: 10px;
-=======
->>>>>>> 24d8ab8 (add story feature)
         transition: transform 0.2s ease;
     }
 
