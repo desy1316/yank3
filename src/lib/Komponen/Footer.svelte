@@ -9,7 +9,7 @@
         <a href="#/audio">
             <i class="bx bx-headphone bx-border-circle"></i>
         </a>
-        <a href="#">
+        <a href="#/jadwal-ibadat">
             <i class="bx bx-calendar-event bx-border-circle"></i>
         </a>
         <a href="#">
@@ -27,15 +27,37 @@
         right: 0;
         z-index: 999999;
         display: none;
+        /* Padding untuk memberi ruang agar efek glass tidak menempel ke pinggir */
+        padding: 10px 15px;
     }
+
     .flex-footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        /* Core Glassmorphism */
+        background: rgba(255, 255, 255, 0.4); /* Warna putih transparan */
+        backdrop-filter: blur(15px); /* Efek blur kaca */
+        -webkit-backdrop-filter: blur(15px); /* Support Safari */
+
+        /* Border halus ala iOS */
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 25px; /* Biar lebih modern & melengkung */
+
+        /* Bayangan tipis agar terlihat melayang */
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
     }
+
     footer a {
-        font-size: 1.6rem !important;
+        font-size: 1.5rem !important; /* Ukuran icon agak dibesarkan */
         color: orangered;
+        padding: 10px;
+        transition: transform 0.2s ease;
+    }
+
+    footer a:active {
+        transform: scale(0.9); /* Efek klik membal ala iOS */
     }
 
     @media (max-width: 576px) {
